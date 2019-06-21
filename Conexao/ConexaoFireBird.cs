@@ -14,8 +14,8 @@ namespace Conexao
             FbConnectionStringBuilder criaGerenciaStringConexao = new FbConnectionStringBuilder();
             criaGerenciaStringConexao.UserID = "SYSDBA";
             criaGerenciaStringConexao.Password = "masterkey";
-            criaGerenciaStringConexao.DataSource = "192.168.254.251";
-            criaGerenciaStringConexao.Database = "E:\\RESWINCS\\Banco\\RESULTH.FB";
+            criaGerenciaStringConexao.DataSource = "192.168.254.247";
+            criaGerenciaStringConexao.Database = "/db/resulth/resulth.fb";
             criaGerenciaStringConexao.Port = 3050;
             criaGerenciaStringConexao.Dialect = 3;
             criaGerenciaStringConexao.Charset = "NONE";

@@ -104,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FirebirdSql.Data.FirebirdClient">
-      <Version>6.4.0</Version>
+      <Version>6.6.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
