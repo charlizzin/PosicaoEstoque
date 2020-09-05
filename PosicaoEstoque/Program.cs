@@ -17,11 +17,7 @@ namespace PosicaoEstoque
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            using (Conexao.ConexaoFireBird.conexao = new FbConnection(Conexao.ConexaoFireBird.sConexao()))
-            {
-                Conexao.ConexaoFireBird.conexao.Open();
-                Application.Run(new frmPosicaoEstoque(ComandosSQL.bsProdutos()));
-            }
+            Application.Run(new frmPosicaoEstoque(ComandosSQL.bsProdutos()));
         }
     }
 }
